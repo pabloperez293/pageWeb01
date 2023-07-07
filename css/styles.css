@@ -125,7 +125,7 @@ header{
 /* Imagenes de galeria */
 
 .gallery{
-    background: #a4d9f3;
+    background: #f9f9f9;
 }
 .contenedorGaleria{
     display: flex;
@@ -171,4 +171,91 @@ header{
     right: 15px;
     width: 40px;
     cursor: pointer;
+}
+/* Expertos */
+.expert{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contExpert{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contExpert img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.nExpert{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 300;
+}
+
+/* Footer */
+footer{
+    background: #9c9c9c;
+    padding-bottom: 0.1px;
+}
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.contactUs{
+    width: 40%;
+    color: #575757;
+}
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+.brand+p{
+    font-weight: 500;
+}
+.socialMedia{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.socialMediaIcon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+
+}
+.socialMediaIcon:hover{
+    background-color: #1f2efa;
+    box-shadow: 0 0 20px #0e90d1;
+}
+.socialMediaIcon:hover:nth-child(2){
+    background-color: #bebebe;
+    box-shadow: 0 0 20px #dbdbdb;
+}
+.socialMediaIcon:hover:nth-child(3){
+    background-color: #19b0d6;
+    box-shadow: 0 0 20px #dbdbdb;
+}
+.socialMediaIcon i{
+    font-size: 30px;
+    line-height: 55px;
+}
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #f9f9f9;
+    margin-bottom: 60px;
 }
